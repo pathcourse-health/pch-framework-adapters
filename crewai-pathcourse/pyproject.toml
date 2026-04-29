@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "crewai-pathcourse"
+version = "0.1.1"
+description = "CrewAI integration for PathCourse Health — autonomous agent inference with USDC billing on Base L2"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["crewai", "llm", "ai-agents", "pathcourse", "autonomous", "multi-agent"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "crewai>=0.70.0",
+]
+
+[project.urls]
+Homepage = "https://pathcoursehealth.com"
+Repository = "https://github.com/pathcourse-health/pch-framework-adapters"
+Documentation = "https://docs.pathcoursehealth.com"
+
+[project.optional-dependencies]
+dev = ["pytest", "python-dotenv"]

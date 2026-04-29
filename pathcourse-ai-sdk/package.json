@@ -1,0 +1,47 @@
+{
+  "name": "@pathcourse/ai",
+  "version": "0.1.1",
+  "description": "PathCourse Health provider for the Vercel AI SDK",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "vercel-ai",
+    "ai-sdk",
+    "pathcourse",
+    "llm",
+    "ai-agents",
+    "nextjs",
+    "openai-compatible"
+  ],
+  "license": "MIT",
+  "homepage": "https://pathcoursehealth.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pathcourse-health/pch-framework-adapters.git",
+    "directory": "pathcourse-ai-sdk"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.0.0",
+    "ai": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  }
+}

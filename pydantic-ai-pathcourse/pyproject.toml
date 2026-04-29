@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pydantic-ai-pathcourse"
+version = "0.1.1"
+description = "Pydantic AI integration for PathCourse Health — typed agents with autonomous USDC billing on Base L2"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["pydantic-ai", "llm", "ai-agents", "pathcourse", "autonomous", "typed-agents"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "pydantic-ai>=0.0.13",
+    "openai>=1.40.0",
+]
+
+[project.urls]
+Homepage = "https://pathcoursehealth.com"
+Repository = "https://github.com/pathcourse-health/pch-framework-adapters"
+Documentation = "https://docs.pathcoursehealth.com"
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio", "python-dotenv"]

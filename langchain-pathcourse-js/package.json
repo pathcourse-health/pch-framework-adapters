@@ -1,0 +1,48 @@
+{
+  "name": "@pathcourse/langchain",
+  "version": "0.1.1",
+  "description": "LangChain.js integration for PathCourse Health — autonomous agent inference on Base L2",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "langchain",
+    "llm",
+    "ai-agents",
+    "pathcourse",
+    "autonomous",
+    "web3",
+    "usdc"
+  ],
+  "license": "MIT",
+  "homepage": "https://pathcoursehealth.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pathcourse-health/pch-framework-adapters.git",
+    "directory": "langchain-pathcourse-js"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.3.0",
+    "@langchain/core": "^0.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  }
+}
