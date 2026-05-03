@@ -89,7 +89,7 @@ Set `PCH_API_KEY` in your environment, or pass `pchApiKey` to the constructor.
 export PCH_API_KEY=pch_prod_b_...
 ```
 
-Get an API key at [pathcoursehealth.com](https://pathcoursehealth.com).
+**Developer access — $5 USDC.** Send $5+ USDC on Base (chain ID 8453) to the PCH treasury wallet, then call [`claimKey({ txHash, wallet })`](https://www.npmjs.com/package/@pathcourse/sdk) to retrieve your key. No accounts, no credit card, no KYC. $5 buys thousands of `pch-fast` calls — enough to verify any integration. Top up to $25 lifetime and your account auto-upgrades to Uncertified with `pch-coder` access. Treasury address: see `payment.treasury_wallet` in [`/.well-known/agent.json`](https://gateway.pathcoursehealth.com/.well-known/agent.json).
 
 ## Links
 

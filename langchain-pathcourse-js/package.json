@@ -1,6 +1,6 @@
 {
   "name": "@pathcourse/langchain",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "LangChain.js integration for PathCourse Health — autonomous agent inference on Base L2",
   "type": "module",
   "main": "./dist/index.js",

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "langchain-pathcourse"
-version = "0.1.1"
+version = "0.1.2"
 description = "LangChain integration for PathCourse Health — autonomous agent inference with USDC billing on Base L2"
 readme = "README.md"
 license = { text = "MIT" }

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "autogen-pathcourse"
-version = "0.1.1"
+version = "0.1.2"
 description = "AutoGen / AG2 integration for PathCourse Health — multi-agent inference with autonomous USDC billing on Base L2"
 readme = "README.md"
 license = { text = "MIT" }
